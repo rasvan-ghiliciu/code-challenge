@@ -1,0 +1,44 @@
+/* NameForm.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    margin: 0 auto;
+  }
+  
+  .form-field {
+    margin: 10px 0;
+  }
+  
+  .form-label {
+    margin-right: 10px;
+  }
+  
+  .form-input, .form-file-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-input:focus, .form-file-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .form-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+
